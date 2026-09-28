@@ -1,0 +1,169 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* Header & Nav */
+header {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #58a6ff;
+}
+
+nav a {
+    color: #8b949e;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #58a6ff;
+}
+
+/* Hero Section */
+.hero {
+    max-width: 900px;
+    margin: 80px auto;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #f0f6fc;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    color: #8b949e;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.btn.primary {
+    background-color: #238636;
+    color: #ffffff;
+}
+
+.btn.primary:hover {
+    background-color: #2ea043;
+}
+
+.btn.secondary {
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+}
+
+.btn.secondary:hover {
+    background-color: #30363d;
+}
+
+/* Sections */
+.section {
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    color: #f0f6fc;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 8px;
+}
+
+/* Project Cards Grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 20px;
+    transition: border-color 0.2s;
+}
+
+.project-card:hover {
+    border-color: #8b949e;
+}
+
+.project-card h3 {
+    color: #58a6ff;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 0.95rem;
+    color: #8b949e;
+    margin-bottom: 15px;
+}
+
+.tech-tag {
+    display: inline-block;
+    background-color: #21262d;
+    color: #58a6ff;
+    font-size: 0.8rem;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+/* Contact Links */
+.contact-links a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    max-width: 900px;
+    margin: 80px auto 40px auto;
+    text-align: center;
+    color: #8b949e;
+    font-size: 0.9rem;
+    border-top: 1px solid #30363d;
+    padding-top: 20px;
+}
