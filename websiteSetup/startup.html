@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BioViz Startup - Jeffrey Yam</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
@@ -12,9 +12,9 @@
     <header>
         <div class="logo">JY</div>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="index.html#projects">Projects</a>
-            <a href="index.html#contact">Contact</a>
+            <a href="../index.html">Home</a>
+            <a href="../index.html#projects">Projects</a>
+            <a href="../index.html#contact">Contact</a>
         </nav>
     </header>
 
@@ -35,18 +35,22 @@
 
 <!-- Video Demonstrations Section -->
     <section class="section">
-        <h2>Demonstration Videos</h2>
+    <h2>Demonstration Videos</h2>
 
-        <!-- Video Item 1 -->
-        <div class="video-card" style="margin-bottom: 30px;">
-            <div class="video-container" style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 6px; border: 1px solid #30363d; margin-bottom: 12px;">
-                <iframe src="https://www.youtube.com/embed/KiCRkwjMBIM" title="BioViz Demonstration" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen></iframe>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+
+        <div class="video-card">
+            <div style="max-width: 450px; margin: 0 auto;">
+                <div class="video-container" style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 6px; border: 1px solid #30363d; margin-bottom: 12px;">
+                    <iframe src="https://www.youtube.com/embed/KiCRkwjMBIM" title="ADK Binding demonstration" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen></iframe>
+                </div>
             </div>
-            <p style="color: #8b949e; font-size: 0.95rem;"><strong>adk active site binding, video rendering</strong></p>
+            <p style="color: #8b949e; font-size: 0.95rem; text-align: center;"><strong>adk active site binding, video rendering</strong></p>
         </div>
 
-        <!-- You can easily duplicate the block above to add more demonstration videos later! -->
-    </section>
+
+    </div>
+</section>
 
     <!-- Footer -->
     <footer>
